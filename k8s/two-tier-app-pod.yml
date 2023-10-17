@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
   - name: two-tier-app-pod
-    image: trainwithshubham/flaskapp:latest
+    image: shadabahmed23/flask-app:latest
     env:
       - name: MYSQL_HOST
         value: mysql-service         # this is your mysql's service clusture IP, Make sure to change it with yours
